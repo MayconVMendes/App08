@@ -19,17 +19,6 @@ import AssetExample from './components/AssetExample';
 import { Card } from 'react-native-paper';
 
 export default function App() {
-  const [isName, setIsName] = useState('');
-  const [isIdade, setIsIdade] = useState('');
-  const [isSexo, setIsSexo] = useState('');
-  const [isEscolaridade, setIsEscolaridade] = useState('');
-  const [isLimite, setIsLimite] = useState();
-  const [isBrasileiro, setIsBrasileiro] = useState(false);
-  const [isExibir, setIsExibir] = useState(false);
-
-  function calcular() {
-    setIsExibir(true);
-  }
 
   return (
     <View style={styles.container}>
